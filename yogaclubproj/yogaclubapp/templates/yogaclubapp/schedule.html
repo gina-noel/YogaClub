@@ -1,0 +1,8 @@
+{% extends 'base.html' %} {% block content %}
+<h1>Schedule</h1>
+<ul>
+    {% for s in schedule %}
+    <li>{{ s.title }}</li>
+    {% endfor %}
+</ul>
+{% endblock %}
